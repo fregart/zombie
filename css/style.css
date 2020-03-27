@@ -1,0 +1,48 @@
+table {
+  width:100%;
+}
+
+.wrapper {
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  background-color: #b2b2b2;
+  padding: 10px;
+  display: block;
+  width: 400px;
+}
+
+.stats {
+  background-color: #3c3c3c;
+  color: #fff;
+  padding: inherit;
+}
+
+.game {
+  background-color: #fefbd8;
+  padding: inherit;
+}
+
+.zombie{
+  width: 5px;
+  height: 5px;
+  background: green;
+  margin-right: 5px;
+  margin-top: 10px;
+  float: left;
+}
+
+.house{
+  width: 15px;
+  height: 15px;
+  border: 1px solid black;
+  margin-right: 5px;
+  float: left;
+}
+
+.uninfected{
+  background: green;
+}
+
+.infected{
+  background: red;
+}

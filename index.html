@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Zombie infecting game</title>
+
+<!-- Stylesheets -->
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<body>
+    
+
+<div class="root">
+        
+        
+    <div class="wrapper">
+        <div class="stats">
+            <button id="button" onclick="init()">Infect houses!</button>
+            <table>
+                <caption>Game run <span id="statRunsDiv"></span> / 10</caption>   
+                <tr>
+                    <td colspan="2"><hr></td>                    
+                    </tr>                     
+                <tr>
+                    <td>Run1</td>
+                    <td id="run0"></td>
+                </tr>
+                <tr>
+                    <td>Run2</td>
+                    <td id="run1"></td>
+                </tr>
+                <tr>
+                    <td>Run3</td>
+                    <td id="run2"></td>
+                </tr>
+                <tr>
+                    <td>Run4</td>
+                    <td id="run3"></td>
+                </tr>
+                <tr>
+                    <td>Run5</td>
+                    <td id="run4"></td>
+                </tr>
+                <tr>
+                    <td>Run6</td>
+                    <td id="run5"></td>
+                </tr>
+                <tr>
+                    <td>Run7</td>
+                    <td id="run6"></td>
+                </tr>
+                <tr>
+                    <td>Run8</td>
+                    <td id="run7"></td>
+                </tr>
+                <tr>
+                    <td>Run9</td>
+                    <td id="run8"></td>
+                </tr>
+                <tr>
+                    <td>Run10</td>
+                    <td id="run9"></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><hr></td>                    
+                </tr>
+                <tr>
+                    <td>Average</td>
+                    <td id="run10"></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><hr></td>                    
+                </tr>
+                <tr>
+                    <td>House = </td>
+                    <td><div class="house uninfected"></div></td>
+                </tr>
+                <tr>
+                    <td>House infected = </td>
+                    <td><div class="house infected"></div></td>
+                    </tr>
+                <tr>
+                    <td>Zombie = </td>
+                    <td><div class="zombie"></div></td>
+                </tr>
+            </table>
+        </div>            
+        <div class="game">
+            
+
+            <div id="houseDiv" class="houseDiv">
+
+            </div>
+            <div id="zombieDiv" class="zombieDiv">
+                
+                </div>
+        </div>
+    
+    </div>
+</div>
+
+    <script src="js/main.js"></script>
+
+</body>
+</html>
